@@ -6,6 +6,7 @@ if names.length == 0
   line.each do |name|
     string += "#{line.length + 1}. #{name}"
     return string.join
+  end
 
   end
 end
