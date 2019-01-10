@@ -5,7 +5,7 @@ if line.length == 0
 else
   string = ["The line is currently: "]
   line.each_with_index { |name, index|
-    string << "#{index + 1}. #{name} "
+    string << " #{index + 1}. #{name}"
   }
     puts string.join
 
