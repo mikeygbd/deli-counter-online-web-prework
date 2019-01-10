@@ -8,8 +8,7 @@ else
     string << "#{index + 1}. #{name}"
   }
     puts string.join
-  end
-
+  
   end
 end
 
