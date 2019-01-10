@@ -1,9 +1,13 @@
 # Write your code here.
-def line(names)
+def line(line)
 if names.length == 0
-  return "The line is currently empty."
+  puts "The line is currently empty."
+  string = "The line is currently: "
+  line.each do |name|
+    string += "#{line.length + 1}. #{name}"
+    return string.join
 
-end
+  end
 end
 
 def take_a_number(line, name)
