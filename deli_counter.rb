@@ -4,7 +4,7 @@ if names.length == 0
   puts "The line is currently empty."
   string = "The line is currently: "
   line.each_with_index do |name, index|
-    string += "#{index + 1}. #{name}"
+    string << "#{index + 1}. #{name}"
     return string.join
   end
 
