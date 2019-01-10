@@ -6,8 +6,7 @@ else
   string = ["The line is currently: "]
   line.each_with_index do |name, index|
     string << "#{index + 1}. #{name}"
-    return string.join
-  end
+    puts string.join
 
   end
 end
